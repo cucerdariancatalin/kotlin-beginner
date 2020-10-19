@@ -1,0 +1,6 @@
+{
+    "kotlin.debugAdapter.path": "C:\\kotlinc\\bin",
+    "kotlin.externalSources.autoConvertToKotlin": false,
+    "kotlin.languageServer.path": "C:\\kotlinc\\bin",
+    "kotlin.languageServer.transport": "tcp"
+}

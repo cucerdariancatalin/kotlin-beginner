@@ -1,3 +1,10 @@
+# 注意点
+
+VisualStudioCodeで文字化けするときは  
+Run In Termnal にチェックを入れてターミナルで実行できるように  
+設定を変更すること  
+[参考にさせていただいたサイト](https://ymdevx3.hatenablog.com/entry/2019/08/26/012020)
+
 # はじめに
 
 ## ざっくりと
