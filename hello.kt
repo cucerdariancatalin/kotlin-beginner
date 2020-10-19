@@ -1,4 +1,4 @@
 
 fun main(){
-  println("ああああ")
+  println("はじめてのKotlin ,(ﾟ∀ﾟ)ｷﾀｺﾚ!!")
 }
