@@ -1,3 +1,7 @@
+# 気になったgitのエラー
+
+> contains emphasized items
+
 # 注意点
 
 VisualStudioCodeで文字化けするときは  
