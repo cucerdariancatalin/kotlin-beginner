@@ -62,8 +62,9 @@ kotlinの関数宣言はとてもシンプル
 
 ``` kotlin
 
+// chap1/hello.kt
 fun main(){
-    println("はじめてのKotlin ,(ﾟ∀ﾟ)ｷﾀｺﾚ!!")
+  println("はじめてのKotlin ,(ﾟ∀ﾟ)ｷﾀｺﾚ!!")
 }
 
 ```
@@ -81,10 +82,10 @@ fun main(){
 
 fun main(args:Array<String>){
 
-    val name= "お山"
-    val number = 2
+  val name= "お山"
+  val number = 2
 
-    println(name+"が"+number+"つ")
+  println(name+"が"+number+"つ")
 
 }
 ```
@@ -96,16 +97,75 @@ fun main(args:Array<String>){
 
 ``` kotlin
 
+// chap2/moutain2.kt
+
 fun main(args:Array<String>){
 
-    val name:String
-    val number :Int = 2
+  val name:String
+  val number :Int = 2
 
-    // 型宣言をしたvalは一度だけ代入できる。
-    name = "お山"
+  // 型宣言をしたvalは一度だけ代入できる。
+  name = "お山"
 
-    println(name+"が"+number+"つ")
+  println(name+"が"+number+"つ")
+
 }
 
 ```
+
+## 文字列に変数を組み込む
+
+この機能にはなんか名前があった希ガス
+
+``` kotlin
+
+// chap2/mt_fuji.kt
+
+fun main(){
+  val mt_name= "富士山"
+  val number=1
+  println("${mt_name}が${number}")
+}
+
+```
+
+JavaScriptと書き方はほぼ同じに見える。  
+ただ、あっちは確かバッククウォートだったか  
+
+## ループと条件分岐
+
+``` kotlin
+
+// chap2/number_loop.kt
+
+fun main(){
+  
+  var number :Int = 1
+
+  println("1～9までを表示")
+  while(number < 10){
+    println(number)
+    number++
+  }
+
+  number = 1
+
+  println("1～9までの偶数を表示")
+
+  while(number < 10){
+    if (number % 2 == 0){
+      println(number)
+    }
+    number++
+  }
+
+
+}
+
+```
+
+条件式の書き方はC言語やJavaにそっくり  
+演算子もそのまま使える。  
+number_loop.kt はほぼ感覚で書けました。  
+
 

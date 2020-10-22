@@ -7,4 +7,5 @@ fun main(args:Array<String>){
     name = "お山"
 
     println(name+"が"+number+"つ")
+    
 }
