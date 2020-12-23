@@ -208,3 +208,12 @@ fun main(){
 ## クラス
 
 ## インターフェイス
+
+## 見かけたWarning文
+
+> warning: variable 'fn' initializer is redundant
+
+初期化後すぐ値を入れていると警告されるとのこと  
+宣言と初期化を同時にする。
+
+>redundant : 冗長 という意味
