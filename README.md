@@ -52,6 +52,10 @@ Javaのランタイム環境とkotlin本体
 > OpenJDK Runtime Environment (build 15+36-1562)  
 > OpenJDK 64-Bit Server VM (build 15+36-1562, mixed mode, sharing)
 
+## jarファイルの実行方法
+
+> java -jar [jarファイル名を表すファイルパスを含んだ文字列]
+
 ## 関数の書き方
 
 関数は「fun」から書き始める。  
